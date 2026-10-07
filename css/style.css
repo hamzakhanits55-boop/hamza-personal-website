@@ -1,0 +1,208 @@
+body {
+    background-color: #e6f7ff;
+    color: darkblue;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    color: darkgreen;
+    font-size: 40px;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px gray;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height: 1.2;
+    font-family: Georgia, serif;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-thickness: 2px;
+}
+
+h2 {
+    text-align: center;
+    color: darkgreen;
+    margin-top: 30px;
+    text-shadow: 2px 2px 4px gray;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: Georgia, serif;
+    text-transform: capitalize;
+    line-height: 1.3;
+}
+
+img {
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    height: 200px;
+    border: 3px solid darkgreen;
+    box-shadow: 0 4px 10px gray;
+    object-fit: cover;
+    object-position: center;
+    max-width: 100%;
+    transition: transform 0.3s ease;
+}
+img:hover {
+    transform: scale(1.05);
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+    color: #444;
+    font-weight: 400;
+    font-family: Arial, sans-serif;
+    text-align: justify;
+    letter-spacing: 0.3px;
+    word-spacing: 2px;
+    font-style: normal;
+    margin-bottom: 20px;
+    font-size: 17px;
+    padding: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    box-shadow: 0 2px 6px gray;
+    transition: 0.3s;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color: darkgreen;
+    font-weight: bold;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid darkgreen;
+    display: inline-block;
+    transition: 0.3s;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 0 2px 5px gray;
+    min-width: 80px;
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    text-shadow: 1px 1px 2px gray;
+    letter-spacing: 1px;
+    background-clip: padding-box;
+    vertical-align: middle;
+    word-spacing: 2px;
+    outline: none;
+    white-space: nowrap;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    font-style: italic;
+    font-size: 20px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px gray;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+nav a:hover {
+    background-color: darkgreen;
+    color: white;
+}
+nav:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px gray;
+    background-color: #f5f5f5;
+    border-color: darkgreen;
+    border-radius: 15px;
+    padding: 12px;
+    opacity: 0.9;
+}
+
+footer {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 30px;
+    border-top: 1px solid darkgreen;
+    padding-top: 10px;
+}
+
+div {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px gray;
+    text-align: center;
+    max-width: 700px;
+    width: 90%;
+    box-sizing: border-box;
+    margin: 20px auto 30px;
+    border: 1px solid lightgray;
+    border-left: 5px solid darkgreen;
+    border-right: 5px solid darkgreen;
+    font-size: 18px;
+    color: darkblue;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+div:hover {
+    transform: translateY(-5px);
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+li {
+    padding: 10px;
+    margin-bottom: 5px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+li:hover {
+    background-color: #f0f0f0;
+    transform: translateX(5px);
+    color: darkgreen;
+}
+a {
+    color: darkgreen;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+    font-size: 16px;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
